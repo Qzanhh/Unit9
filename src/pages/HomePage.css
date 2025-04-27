@@ -1,0 +1,63 @@
+/* Home page container */
+.home-page {
+  padding: 20px;
+  background-color: #0d1117;
+  color: white;
+}
+
+/* Header section */
+.home-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  color: #c9d1d9;
+}
+
+/* Search and sort section */
+.search-sort {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  background-color: #161b22;
+  color: white;
+}
+
+.sort-dropdown {
+  padding: 10px;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  background-color: #161b22;
+  color: white;
+}
+
+/* Updated food grid to display 3 cards in a row */
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensures 3 cards per row */
+  gap: 20px;
+}
+
+.food-card {
+  background-color: #161b22;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
