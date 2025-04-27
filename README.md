@@ -68,6 +68,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![demo](https://github.com/user-attachments/assets/c4f15f90-b226-41f1-8097-440f47a5268d)
 
 <img src='/rate-my-food/public/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
